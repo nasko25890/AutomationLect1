@@ -7,6 +7,10 @@ public class firstPoint {
             //test
             //test new test
 
+
+
+            int number = 1;
+            System.out.println(number);
         }
     }
 }
