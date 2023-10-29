@@ -14,7 +14,20 @@ public class Main {
        //Reverse the order of the elements in a LinkedList using algorithm
        // reverseLinkedList();
        // sumOfMatrixDiagonals();
-        palindromeCheck();
+       // palindromeCheck();
+        int result = findSmallestNumberFromThreeNumbers(100, 11, 15);
+        System.out.println(result);
+    }
+
+    private static int findSmallestNumberFromThreeNumbers(int x, int y, int z) {
+        int smallest = x;
+        if(y< x && y < z) {
+            smallest = y;
+        } else if (z<x && z<y) {
+            smallest = z;
+        }
+
+        return smallest;
     }
 
     private static void palindromeCheck() {
