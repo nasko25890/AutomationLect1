@@ -26,7 +26,7 @@ public class Main {
         } else if (z<x && z<y) {
             smallest = z;
         }
-        System.out.println("The result is");
+        System.out.println("The result is ");
         return smallest;
     }
 
