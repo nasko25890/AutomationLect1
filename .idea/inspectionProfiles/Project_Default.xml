@@ -1,0 +1,19 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="groupsTestNG" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="groups">
+        <value>
+          <list size="6">
+            <item index="0" class="java.lang.String" itemvalue="sum" />
+            <item index="1" class="java.lang.String" itemvalue="substraction" />
+            <item index="2" class="java.lang.String" itemvalue="subtraction" />
+            <item index="3" class="java.lang.String" itemvalue="multiplication" />
+            <item index="4" class="java.lang.String" itemvalue="division" />
+            <item index="5" class="java.lang.String" itemvalue="ModuleDivision" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
