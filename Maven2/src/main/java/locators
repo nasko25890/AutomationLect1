@@ -1,0 +1,19 @@
+HOME PAGE
+#nav-link-home – HOME button
+#nav-link-login – LOGIN button
+//*[@class = "navbar-brand"] – home icon container
+//*[@id = "homeIcon"] – logo image locator
+//*[@class = "navbar navbar-expand-md navbar-light bg-light"] – navigation bar (contains all buttons from the navigation bar
+LOGIN PAGE
+//*[@id= "defaultLoginFormUsername"] – username or email
+//*[@id= "defaultLoginFormPassword"] – passward
+//*[@class= "remember-me-button ng-valid ng-dirty ng-touched"] – checkbox
+#sign-in-button – Sign In
+//a[starts-with(text(), "Register")] – Register button
+SING UP
+//*[@class = "form-control ng-pristine ng-invalid is-invalid ng-touched"] [@placeholder = "Username"] – Username
+//*[@class = "form-control ng-pristine ng-invalid is-invalid ng-touched"] [@placeholder = "email"] – email
+//*[@class = "form-control ng-pristine ng-invalid is-invalid ng-touched"] [@placeholder = "Password"] – Password
+//*[@name= "verify-password"] – Confirm password
+#sign-in-button – Sing-IN button
+//h4[@class = "text-center mb-4"] – SIGN UP - text
